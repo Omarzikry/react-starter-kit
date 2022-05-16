@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Title from "../../components/Title/Title";
+import styled from 'styled-components';
+import { Title } from '../../components/Title/Title';
 
 const SApp = styled.div`
   display: flex;
@@ -9,12 +9,10 @@ const SApp = styled.div`
   align-items: center;
 `;
 
-const App = () => {
+export const App = () => {
   return (
     <SApp>
       <Title />
     </SApp>
   );
 };
-
-export default App;
